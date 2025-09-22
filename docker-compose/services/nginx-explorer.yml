@@ -10,5 +10,5 @@ services:
       BACK_PROXY_PASS: ${BACK_PROXY_PASS:-http://backend:4000}
       FRONT_PROXY_PASS: ${FRONT_PROXY_PASS:-http://frontend:3000}
     ports:
-      - target: 9000
+      - target: 80
         published: 9000
