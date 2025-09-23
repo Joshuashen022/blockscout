@@ -1,4 +1,6 @@
-docker compose -f ./docker-compose/anvil.yml up
+sudo chmod +x ./docker-compose/dets/
+
+docker compose -f no-services.yml up -d
 
 # check address
 # ipconfig getifaddr en0
