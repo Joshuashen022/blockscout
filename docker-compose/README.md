@@ -91,3 +91,11 @@ make stop
 ```
 
 ***Note***: Makefile uses the same .env files since it is running docker-compose services inside.
+
+
+## NOTATIONS
+need authorize `./services/dets` folder for read/write, or `backend` container will not crash.
+
+```bash
+chmod 777 ./services/dets
+```
